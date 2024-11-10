@@ -140,10 +140,10 @@ const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);
   return (
-    <div className='h-full bg-primary/30 -mt-[50px]  text-center xl:text-left mt-[10px] mr-2'>
+    <div className='h-full bg-primary/30 -mt-[60px]  text-center xl:text-left mt-[10px] '>
       <Circles />
       <div className=' container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 '>
-        <div className='  mt-[150px] mb-[50px] xl:mt-[20px] flex-1 flex flex-col justify-center'>
+        <div className='  mt-[200px] mb-[50px] xl:mt-[20px] flex-1 flex flex-col justify-center'>
           <motion.h2 variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden' className=' h2'>
             The Story Of <span className=' text-accent'>My Life</span>  how it started as Developer.
           </motion.h2>
@@ -184,7 +184,7 @@ const About = () => {
 
           </motion.div>
         </div>
-        <motion.div variants={fadeIn('left', 0.4)} initial='hidden' animate='show' exit='hidden' className='flex flex-col items-center w-full -mt-12 xl:max-w-[48%] h-[480px] '>
+        <motion.div variants={fadeIn('left', 0.4)} initial='hidden' animate='show' exit='hidden' className='flex flex-col items-center w-full  -mt-12 xl:max-w-[48%] h-[480px] '>
           <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 lg:mt-[150px]  '>
             {aboutData.map((item, itemIndex) => {
               return <div key={itemIndex} className={` ${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'}cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
