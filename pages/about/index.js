@@ -140,7 +140,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);
   return (
-    <div className='h-full bg-primary/30 -mt-[60px]  text-center xl:text-left mt-[10px] '>
+    <div className='h-full bg-primary/30 -mt-[65px]  text-center xl:text-left mt-[10px] '>
       <Circles />
       <div className=' container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 '>
         <div className='  mt-[200px] mb-[50px] xl:mt-[20px] flex-1 flex flex-col justify-center'>
