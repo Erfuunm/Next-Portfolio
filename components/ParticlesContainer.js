@@ -14,7 +14,7 @@ const ParticlesContainer = () => {
 
   return(
 
-    <Particles className=' w-full h-full absolute translate-z-0'  id='tsparticles' init={ParticlesInit} loaded={Particlesloaded} options={{
+    <Particles className=' w-screen h-full absolute translate-z-0 '  id='tsparticles' init={ParticlesInit} loaded={Particlesloaded} options={{
       fullScreen: {enable: false},
       background: {
         color:{

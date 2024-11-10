@@ -13,14 +13,14 @@ const Home = () => {
   return( <div className='bg-primary/60 h-full '>
     <Test />
 
-    <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 '>
+    <div className='w-full h-full -mt-8  bg-gradient-to-r from-primary/10 via-black/30 to-black/10 '>
       <div className='text-center flex flex-col justify-center xl:pt-40  xl:text-left h-full container mx-auto'>
 
         <motion.h1 variants={fadeIn('down' , 0.2)} initial='hidden' animate='show' exit='hidden' className='h1  '> Time For Migration <br />  Into <span className=' text-blue-500'>Digital Reality :)</span></motion.h1>
         <motion.p variants={fadeIn('down' , 0.3)} initial='hidden' animate='show' exit='hidden' className='max-w-sm xl:max-w-xl pb-[50px] mx-auto xl:mx-0 mb-10 xl:mb-16'>
           Hi, Im Erfan Mizban .I study computer engineering at Ferdowsi university of mashhad .
           i realy like Programming and creating something new . i am the founder of NORD GROUP wich is a Student programming team.
-          and i was work as a programmer in cycass company and mosafer app . if you want us to have cooperation 
+          and i was work as Frontend and Backend programmer in many companies . if you want us to have cooperation 
           just text me.
          
         </motion.p >
@@ -36,7 +36,7 @@ const Home = () => {
       </div>
     </div>
     {/*+++++++++++++++++++++++++++++++++++++*/}
-    <div className='w-[1360px] h-full absolute right-0 bottom-0'>
+    <div className='w-full h-full absolute right-0 bottom-0'>
       <div className='bg-none xl:bg-explosion animate-pulse xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0'>
       </div>
       <ParticlesContainer />

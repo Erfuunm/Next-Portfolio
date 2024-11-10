@@ -60,11 +60,11 @@ export const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'No Award Yet ^( ',
+        title: 'ICPC of Ferdowsi university',
         stage: '',
       },
       {
-        title: 'But Its Close :)',
+        title: 'ICPC of Sajjad university',
         stage: '',
       },
     ],
@@ -72,6 +72,10 @@ export const aboutData = [
   {
     title: 'experience',
     info: [
+      {
+        title: 'fronted developer - Moein Software Group ',
+        stage: '2024',
+      },
       {
         title: 'Intern - Cycass Company',
         stage: '2023',
@@ -130,7 +134,7 @@ const About = () => {
           The Story Of <span className=' text-accent'>My Life</span>  how it started as Developer.
         </motion.h2>
         <motion.p variants={fadeIn('right' , 0.4)} initial='hidden' animate='show' exit='hidden' className='  max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 '>
-          2 years ago, I began freelancing as a Developer. Since then, i have
+          4 years ago, I began freelancing as a Developer. Since then, i have
           done remote work for agencies, counsulted for startups, and 
           collabrated on digital products for business and consumer use.
         </motion.p>
@@ -139,7 +143,7 @@ const About = () => {
 
             <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 '></div>
              <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-              <CountUp start={0} end={2} duration={5} /> +
+              <CountUp start={0} end={4} duration={5} /> +
 
              </div>
              <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Years Of Experience</div>
@@ -147,7 +151,7 @@ const About = () => {
               
              <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 '></div>
              <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-              <CountUp start={0} end={14} duration={5} /> +
+              <CountUp start={0} end={25} duration={5} /> +
 
              </div>
              <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Projects</div>
