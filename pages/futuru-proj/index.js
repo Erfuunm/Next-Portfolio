@@ -143,7 +143,7 @@ const Work = () => {
                     
                     <p class="text-gray-300 text-sm mt-2">
                     The FuturU app was a web application developed in collaboration with FuturU and Payatek to view and manage scans made by the PT-3D device.
-                    The app is able to predict the shape and structure of individuals' bodies by running an algorithm based on weight and muscle mass.
+                    The app is able to predict the shape and structure of individuals bodies by running an algorithm based on weight and muscle mass.
                     </p>
                 </div>
             </div>
