@@ -42,7 +42,7 @@ const workSlides = {
   import 'swiper/css/pagination';
   import Image from 'next/image';
 
-  const PrinterSlider = () => {
+  const SmartSlider = () => {
     return (
       <Swiper
         spaceBetween={10}
@@ -81,5 +81,5 @@ const workSlides = {
     );
   };
   
-  export default PrinterSlider;
+  export default SmartSlider;
   
