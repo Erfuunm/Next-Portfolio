@@ -3,49 +3,30 @@ const workSlides = {
     slides: [
       {
         images: [
-
-            {
-                title: 'title',
-                path: '/printer/jobqueue.jpg',
-              },
-          
-        ],
-      },
-      
-
-
-      {
-        images: [
-
           {
             title: 'title',
-            path: '/printer/jobqueue2.jpg',
+            path: '/tsoles-panel/Dash1.png',
+            
           },
-        ],
-      },
-
-      {
-        images: [
-
-
           {
             title: 'title',
-           
-            path: '/printer/Dash1.jpg',
-          
+            
+            path: '/tsoles-panel/Dash2.png',
           },
-
-      
-
-        
+  
         ],
       },
-
-
-
-
+  
+  
+  
     ],
   };
+  
+  
+  
+  
+  
+  
   
   // data
   
@@ -53,9 +34,12 @@ const workSlides = {
   import 'swiper/css';
   import 'swiper/css/free-mode';
   import 'swiper/css/pagination';
+  
+  
+  
   import Image from 'next/image';
-
-  const PrinterSlider = () => {
+  
+  const TsolesSlider = () => {
     return (
       <Swiper
         spaceBetween={10}
@@ -63,23 +47,23 @@ const workSlides = {
           clickable: true,
         }}
         //  modules={[ pagination]}
-        className='h-[380px] sm:h[480px] flex items-center justify-center  mt-[400px] lg:mt-20'
+        className='h-[580px] sm:h[480px]  mt-[400px] lg:mt-36'
       >
         {
           workSlides.slides.map((slide, index) => {
   
             return (
               <SwiperSlide key={index}>
-                <div className='flex items-center justify-center mt-10 gap-4 cursor-pointer '>
+                <div className='grid grid-cols-1 grid-row-1 mt-10 gap-4 cursor-pointer '>
                   {slide.images.map((image, index) => {
                     return <div className='relative rounded-lg overflow-hidden flex items-center justify-center 
                     group' key={index}>
                       <div className='flex items-center justify-center relative overflow-hidden group '>
                         <div className=' h-full'>
-                          <Image src={image.path} width={500} height={220} alt='' />
+                          <Image src={image.path} width={500} height={200} alt='' />
                         </div>
-
-
+  
+  
                       
                       
                       </div>
@@ -94,5 +78,5 @@ const workSlides = {
     );
   };
   
-  export default PrinterSlider;
+  export default TsolesSlider;
   

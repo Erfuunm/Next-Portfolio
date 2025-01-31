@@ -32,6 +32,7 @@ import {
 } from 'react-icons/si';
 
 import { useState } from 'react';
+import SmartSlider from '../../components/SmartSlider';
 
 
 export const aboutData = [
@@ -85,7 +86,7 @@ const Work = () => {
       <div className='flex flex-col xl:flex-row gap-x-8'>
       <motion.div variants={fadeIn('down' , 0.6)} initial='hidden' animate='show' exit='hidden'
        className=' w-full  xl:max-w-[50%] -mt-[7%]'>
-       <FuturuSlider />
+      <SmartSlider />
        </motion.div>
         {/* <div className=' text-center flex xl:w-[30vw] flex-col lg:text-left mt-[300px] -mb-[350px]  xl:mb-0 xl:mt-40 '>
           <motion.h2 variants={fadeIn('up' , 0.2)} initial='hidden' animate='show' exit='hidden'
@@ -94,10 +95,10 @@ const Work = () => {
           className='mb-4 max-w-[400px] mx-auto lg:mx-0'>You can have look on some of my last Projection and there is source code for some of them in my github.</motion.p>
         </div> */}
 
-<div class="md:flex-1 px-4 mt-[8%]">
-                <h2 class="text-2xl font-bold text-white mb-2">FuturU Web App</h2>
+<div class="md:flex-1 px-4 mt-[17%]">
+                <h2 class="text-2xl font-bold text-white mb-2">Smart Units</h2>
                 <p class="text-gray-300 text-sm mb-4">
-              3D sccaner app wich will help users to manage their 3D body scans
+                 a modern control dashboard for setting the data on smart units
                 </p>
        
                 <div class="mb-4">
@@ -124,7 +125,7 @@ const Work = () => {
                 <div class="flex mb-4">
                     <div class="mr-4">
                         <span class="font-bold text-white">Publish date: </span>
-                        <span class="text-gray-300"> 2024/10/24</span>
+                        <span class="text-gray-300"> 2024/12/04</span>
                     </div>
               
                 </div>
@@ -134,8 +135,7 @@ const Work = () => {
                 <div>
                     
                     <p class="text-gray-300 text-sm mt-2">
-                    The FuturU app was a web application developed in collaboration with FuturU and Payatek to view and manage scans made by the PT-3D device.
-                    The app is able to predict the shape and structure of individuals bodies by running an algorithm based on weight and muscle mass.
+                    Smart Units are a series of control units that were created in collaboration with Unityware and QueueTech in the UK, and I created a modern and beautiful control panel for them.
                     </p>
                 </div>
             </div>
