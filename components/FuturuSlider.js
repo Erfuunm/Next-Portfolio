@@ -59,7 +59,7 @@ import { FaPython } from 'react-icons/fa';
           clickable: true,
         }}
         //  modules={[ pagination]}
-        className='h-[480px] sm:h[480px]  mt-[400px] lg:mt-20'
+        className='xl:h-[480px] sm:h[430px] mt-[5%]  xl:mt-[100px] lg:mt-20'
       >
         {
           workSlides.slides.map((slide, index) => {

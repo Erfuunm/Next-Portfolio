@@ -80,7 +80,7 @@ const Work = () => {
           className='mb-4 max-w-[400px] mx-auto lg:mx-0'>You can have look on some of my last Projection and there is source code for some of them in my github.</motion.p>
         </div> */}
 
-<div class="md:flex-1 px-4 mt-[17%]">
+<div class="md:flex-1 px-4 mt-10 xl:mt-[15%]">
                 <h2 class="text-2xl font-bold text-white mb-2">Tsoles Admin Panel</h2>
                 <p class="text-gray-300 text-sm mb-4">
                  this panel is use for managing Tsoles users account
@@ -91,7 +91,7 @@ const Work = () => {
                            {aboutData[index].info.map((item, itemIndex) => {
                              return (
                                <div key={itemIndex} className='flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 mb-2 mt-2 '>
-                                 <div className='text-white mb-2 mr-2 md:mb-0'>{item.title}</div>
+                                 <div className='text-white mb-2 mr-2 md:mb-0 hidden xl:block'>{item.title}</div>
                                  <div className=' hidden md:flex'></div>
                                  <div>{item.stage}</div>
                                  <div className=' flex gap-x-4 '>
@@ -107,7 +107,7 @@ const Work = () => {
                            })}
                 </div>
 
-                <div class="flex mb-4">
+                <div class="xl:flex mb-4 hidden">
                     <div class="mr-4">
                         <span class="font-bold text-white">Publish date: </span>
                         <span class="text-gray-300"> 2024/08/12</span>
@@ -117,7 +117,7 @@ const Work = () => {
 
 
 
-                <div>
+                <div className='hidden xl:block'>
                     
                     <p class="text-gray-300 text-sm mt-2">
                     Insole Design is a desktop software licensed by Tsoles and Payatek that allows its users to modify and personalize their designed insoles.

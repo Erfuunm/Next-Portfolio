@@ -47,7 +47,7 @@ const workSlides = {
           clickable: true,
         }}
         //  modules={[ pagination]}
-        className='h-[580px] sm:h[480px]  mt-[400px] lg:mt-36'
+        className='xl:h-[580px] h[430px]  mt-[100px] lg:mt-36'
       >
         {
           workSlides.slides.map((slide, index) => {
