@@ -7,6 +7,7 @@ import Transition from '../components/Transition';
 import {useRouter} from 'next/router'
 
 import { AnimatePresence , motion} from 'framer-motion'
+import { Analytics } from "@vercel/analytics/react"
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
@@ -16,7 +17,7 @@ function MyApp({ Component, pageProps }) {
         <Transition />
 
       <Component {...pageProps} />
-
+      <Analytics />
 
       </motion.div>
     </AnimatePresence>
