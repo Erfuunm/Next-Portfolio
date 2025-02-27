@@ -3,6 +3,7 @@ import Image from "next/image";
 import ParticlesContainer from '../components/ParticlesContainer';
 import ProjectsBtn from '../components/ProjectsBtn';
 import Avatar from '../components/Avatar';
+import { Analytics } from "@vercel/analytics/react"
 
 
 import { motion } from "framer-motion";
@@ -24,6 +25,10 @@ const Home = () => {
           just text me.
          
         </motion.p >
+
+        
+        <Analytics />
+      
         <div className='flex justify-center xl:hidden relative'>
           {/* <ProjectsBtn /> */}
         </div>
