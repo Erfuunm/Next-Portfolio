@@ -140,10 +140,10 @@ const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);
   return (
-    <div className='h-[800px] bg-primary/30  text-center xl:text-left  '>
+    <div className=' bg-primary/30  text-center xl:text-left mt-2  '>
       <Circles />
       <div className=' container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 '>
-        <div className='  mt-[150px] mb-[50px] xl:mt-[20px] flex-1 flex flex-col justify-center'>
+        <div className='  mt-[170px] mb-[50px] xl:mt-[20px] flex-1 flex flex-col justify-center'>
           <motion.h2 variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden' className=' h2'>
             The Story Of <span className=' text-accent'>My Life</span>  how it started as Developer.
           </motion.h2>

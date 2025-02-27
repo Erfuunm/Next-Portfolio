@@ -12,7 +12,7 @@ const Header = () => {
     <div className='container mx-auto'>
       <div className=' flex flex-col lg:flex-row justify-between items-center  py-8 '>
         <Link className="mt-1" href={'/'}>
-        <Image src={'/Logo2.png'} width={250} height={88} alt='' priority={true}/>
+        <Image className="mt-4 " src={'/Logo2.png'} width={250} height={88} alt='' priority={true}/>
         </Link>
         <Socials />
       </div>
