@@ -16,12 +16,12 @@ export const navData = [
   { name: 'work', path: '/', icon: <HiViewColumns /> },
   {
     name: 'testimonials',
-    path: '/testimonials',
+    path: '/',
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
     name: 'contact',
-    path: '/contact',
+    path: '/',
     icon: <HiEnvelope />,
   },
 ];
