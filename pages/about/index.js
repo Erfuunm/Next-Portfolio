@@ -90,21 +90,30 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
+        title: 'Full-Stack Developer - Payatek ',
+        stage: '2024 - Current',
+      },
+      {
+        title: 'Full-Stack Developer - Unity Ware Solutions ',
+        stage: '2024 - Current',
+      },
+      {
+        title: 'Full-Stack Developer - Sky Inoventure ',
+        stage: '2025 - Current',
+      },
+      {
         title: 'fronted developer - Moein Software Group ',
-        stage: '2024',
+        stage: '2023 - 2024',
       },
       {
         title: 'Intern - Cycass Company',
-        stage: '2023',
+        stage: '2022',
       },
       {
         title: 'Web Developer - Freelancing ',
         stage: '2021 - 2023',
       },
-      {
-        title: 'Teaching - Schools & State cultural centers',
-        stage: '2022 - 2023',
-      },
+
     ],
   },
   {
@@ -140,8 +149,8 @@ const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);
   return (
-    <div className=' h-full bg-primary/30  text-center xl:text-left  '>
-      <Circles />
+    <div className=' h-[155%] bg-primary/30  text-center xl:text-left  '>
+      {/* <Circles /> */}
       <div className=' container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 '>
         <div className='  mt-[170px] mb-[50px] xl:mt-[20px] flex-1 flex flex-col justify-center'>
           <motion.h2 variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden' className=' h2'>

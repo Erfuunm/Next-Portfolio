@@ -19,7 +19,7 @@ const Home = () => {
     <Test />
     
 
-    <div className='w-full h-screen   bg-gradient-to-r from-primary/10 via-black/30 to-black/10 '>
+    <div className='w-full h-screen bg-gradient-to-r from-primary/10 via-black/30 to-black/10 '>
       <div className='text-center flex flex-col justify-center xl:pt-40  xl:text-left h-full container mx-auto'>
 
         <motion.h1 variants={fadeIn('down' , 0.2)} initial='hidden' animate='show' exit='hidden' className='h1 mt-[45%] sm:mt-[10%] xl:mt-[0%]  '> Time For Migration <br />  Into <span className=' text-blue-500'>Digital Reality </span></motion.h1>
@@ -47,6 +47,7 @@ Im always open to interesting collaborations and new opportunities. Lets connect
 
       </div>
     </div>
+    
     {/*+++++++++++++++++++++++++++++++++++++*/}
     <div className='w-full h-full absolute right-0 bottom-0 '>
       <div className='bg-none xl:bg-explosion animate-pulse xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0'>
